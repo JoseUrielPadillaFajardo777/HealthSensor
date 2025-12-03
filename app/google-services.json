@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "912276348558",
+    "project_id": "healthsensor-1985c",
+    "storage_bucket": "healthsensor-1985c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912276348558:android:9c963f2b60e9c6db5bf3df",
+        "android_client_info": {
+          "package_name": "com.example.healthsensor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoDl4VYl5yB6HJtoekX8Lt7hcILDp8-VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
