@@ -7,9 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.healthsensor"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.healthsensor"
@@ -59,10 +57,6 @@ dependencies {
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.auth.ktx)
     implementation(libs.firebase.firestore.ktx)
-    implementation(libs.google.firebase.analytics)
-    implementation(libs.google.firebase.auth.ktx)
-    implementation(libs.google.firebase.firestore.ktx)
-    implementation(libs.platform.com.firebase.bom)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

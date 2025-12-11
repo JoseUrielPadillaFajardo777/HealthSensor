@@ -1,5 +1,5 @@
 [versions]
-agp = "8.13.1"
+agp = "8.12.0"
 kotlin = "2.0.21"
 coreKtx = "1.10.1"
 junit = "4.13.2"
@@ -41,7 +41,6 @@ firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-fires
 google-firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
 google-firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
 google-firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
-platform_com-firebase-bom = { group = "platform(", name = "firebase-bom", version.ref = "firebaseBomVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
